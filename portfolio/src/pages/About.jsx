@@ -23,7 +23,7 @@ const About = () => {
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             A passionate software developer specializing in modern web and mobile technologies, 
-            with a strong focus on creating intuitive and responsive user experiences.
+            with a strong focus on creating intuitive and responsive user experiences
           </p>
         </div>
 
