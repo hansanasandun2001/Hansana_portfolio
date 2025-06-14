@@ -33,7 +33,7 @@ const Home = () => {
             to="/contact" 
             className="border-2 border-blue-800 text-blue-800 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition duration-300"
           >
-            Get In Touch
+           Contact me
           </Link>
         </div>
       </div>

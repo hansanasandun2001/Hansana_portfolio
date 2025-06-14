@@ -10,16 +10,16 @@ const Projects = () => {
       technologies: ["PHP", "CSS", "HTML", "JAVA SCRIPT", "MySQL"],
       github: "https://github.com/hansanasandun2001/BloodUnity.git",
       live: "https://your-ecommerce-demo.com",
-      image: "/api/placeholder/400/250"
+      image: "/Bloodunity.png"
     },
     {
       id: 2,
-      title: "TRESEARCH_CONFERENCE",
+      title: "RESEARCH_CONFERENCE",
       description: "Research Conference Web Site",
       technologies: ["PHP", "CSS", "HTML", "JAVA SCRIPT"],
       github: "https://github.com/hansanasandun2001/RESEARCH_CONFERENCE.git",
       live: "https://your-task-manager.com",
-      image: "/api/placeholder/400/250"
+      image: "Research.png"
     },
     {
       id: 3,
@@ -27,8 +27,7 @@ const Projects = () => {
       description: "A simple and elegant calculator app built using Flutter. This application performs basic arithmetic operations like addition, subtraction, multiplication, and division",
       technologies: ["Dart", "JAVA"],
       github: "https://github.com/hansanasandun2001/Calculator.git",
-      live: "https://your-weather-app.com",
-      image: "/api/placeholder/400/250"
+      image: "/Calculator.png"
     },
      {
       id: 4,
@@ -37,7 +36,7 @@ const Projects = () => {
       technologies: ["Dart","C++",'CMake',"HTML","CSS","Swift","C"],
       github: "https://github.com/hansanasandun2001/todo.git",
       live: "https://your-weather-app.com",
-      image: "/api/placeholder/400/250"
+      image: "/Todo.png"
     }, {
       id: 5,
       title: "Scientific Calculator",
@@ -45,16 +44,16 @@ const Projects = () => {
       technologies: ["Dart", "JAVA"],
       github: "https://github.com/hansanasandun2001/scientific_calculator.git",
       live: "https://your-weather-app.com",
-      image: "/api/placeholder/400/250"
+      image: "/sc.png"
     },
      {
       id: 6,
       title: "JobFinder",
-      description: "A job search application that connects job seekers with potential employers, featuring job listings, application tracking, and user profiles.",
+      description: "A job search application that connects job seekers with potential employers, featuring job listings, application tracking, and user profiles. (gruop project)",
       technologies: ["Typescript"],
       github: "https://github.com/KJRMalshan/test.git",
       live: "https://your-weather-app.com",
-      image: "/api/placeholder/400/250"
+      image: "/JobFinder.png"
     }
 
   
@@ -84,14 +83,7 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                   <div className="text-center">
-                    <a 
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mr-2 inline-block"
-                    >
-                      Live Demo
-                    </a>
+                    
                     <a 
                       href={project.github}
                       target="_blank"
