@@ -1,19 +1,25 @@
 // src/pages/About.js
 import React from 'react';
 import { FaGraduationCap, FaBriefcase, FaCode, FaLaptopCode } from 'react-icons/fa';
-import { SiJavascript, SiReact, SiHtml5, SiCss3, SiFlutter } from 'react-icons/si';
+import { SiJavascript, SiReact, SiHtml5, SiCss3, SiFlutter, SiNodedotjs, SiMysql, SiGit, SiGithub, SiFigma } from 'react-icons/si';
 
 const About = () => {
   const skills = [
     { name: 'HTML5', icon: <SiHtml5 className="text-orange-500" />, category: 'Frontend' },
-    { name: 'CSS3', icon: <SiCss3 className="text-blue-500" />, category: 'Frontend' },
     { name: 'JavaScript', icon: <SiJavascript className="text-yellow-400" />, category: 'Frontend' },
     { name: 'React', icon: <SiReact className="text-cyan-400" />, category: 'Frontend' },
-    { name: 'Flutter', icon: <SiFlutter className="text-blue-400" />, category: 'Mobile' },
+    { name: 'Dart', icon: <SiFlutter className="text-blue-400" />, category: 'Mobile' },
+    { name: 'Node.js', icon: <SiNodedotjs className="text-green-500" />, category: 'Backend' },
+    { name: 'MySQL', icon: <SiMysql className="text-blue-700" />, category: 'Database' },
+    { name: 'Git', icon: <SiGit className="text-orange-500" />, category: 'Version Control' },
+    { name: 'github', icon: <SiGithub className="text-gray-700" />, category: 'Version Control' },
+    { name: 'Figma', icon: <SiFigma className="text-pink-500" />, category: 'Design' }, 
+    { nmae: 'flutterflow', icon: <SiFlutter className="text-purple-500" />, category: 'Mobile' },   
+    
   ];
 
   return (
-    <section className="section-padding bg-white dark:bg-gray-900 pt-24">
+    <section className="section-padding bg-gradient-to-br from-blue-50 to-indigo-100 dark:bg-gray-900 pt-24">
       <div className="container mx-auto max-w-6xl px-4">
         {/* Header Section */}
         <div className="text-center mb-12">
@@ -21,7 +27,7 @@ const About = () => {
             About Me
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg text-black dark:text-gray-300 max-w-3xl mx-auto">
             A passionate software developer specializing in modern web and mobile technologies, 
             with a strong focus on creating intuitive and responsive user experiences
           </p>

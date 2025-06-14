@@ -5,35 +5,64 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
-      description: "Full-stack e-commerce platform with React, Node.js, and MongoDB",
-      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      github: "https://github.com/yourusername/ecommerce",
+      title: "BloodUnity",
+      description: "Blood Unity web site",
+      technologies: ["PHP", "CSS", "HTML", "JAVA SCRIPT", "MySQL"],
+      github: "https://github.com/hansanasandun2001/BloodUnity.git",
       live: "https://your-ecommerce-demo.com",
       image: "/api/placeholder/400/250"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates",
-      technologies: ["React", "Firebase", "Material-UI"],
-      github: "https://github.com/yourusername/task-manager",
+      title: "TRESEARCH_CONFERENCE",
+      description: "Research Conference Web Site",
+      technologies: ["PHP", "CSS", "HTML", "JAVA SCRIPT"],
+      github: "https://github.com/hansanasandun2001/RESEARCH_CONFERENCE.git",
       live: "https://your-task-manager.com",
       image: "/api/placeholder/400/250"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Weather application with location-based forecasts and data visualization",
-      technologies: ["React", "Chart.js", "Weather API"],
-      github: "https://github.com/yourusername/weather-app",
+      title: "Calculator App",
+      description: "A simple and elegant calculator app built using Flutter. This application performs basic arithmetic operations like addition, subtraction, multiplication, and division",
+      technologies: ["Dart", "JAVA"],
+      github: "https://github.com/hansanasandun2001/Calculator.git",
+      live: "https://your-weather-app.com",
+      image: "/api/placeholder/400/250"
+    },
+     {
+      id: 4,
+      title: "Todo App",
+      description: "A simple, clean todo list application built with Flutter that helps you manage your daily tasks.",
+      technologies: ["Dart","C++",'CMake',"HTML","CSS","Swift","C"],
+      github: "https://github.com/hansanasandun2001/todo.git",
+      live: "https://your-weather-app.com",
+      image: "/api/placeholder/400/250"
+    }, {
+      id: 5,
+      title: "Scientific Calculator",
+      description: "A fully functional scientific calculator built with Flutter, featuring both basic and advanced mathematical operations with a clean, responsive UI.",
+      technologies: ["Dart", "JAVA"],
+      github: "https://github.com/hansanasandun2001/scientific_calculator.git",
+      live: "https://your-weather-app.com",
+      image: "/api/placeholder/400/250"
+    },
+     {
+      id: 6,
+      title: "JobFinder",
+      description: "A job search application that connects job seekers with potential employers, featuring job listings, application tracking, and user profiles.",
+      technologies: ["Typescript"],
+      github: "https://github.com/KJRMalshan/test.git",
       live: "https://your-weather-app.com",
       image: "/api/placeholder/400/250"
     }
+
+  
+   
   ];
 
   return (
-    <section className="section-padding bg-gray-50 dark:bg-gray-800 pt-24">
+    <section className="section-padding bg-gradient-to-br from-blue-50 to-indigo-100 dark:bg-gray-800 pt-24">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">
